@@ -3,16 +3,16 @@ y = 1:0.5:5;
 
 % Tạo ma trận điều khiển để đảo trật tự các số hạng của vectơ y
 n = length(y);
-C = flip(eye(n));
+C = flip(eye(n));% lật đối xứng cac dong voi nhau
 
 % Sử dụng ma trận điều khiển để đảo trật tự vectơ y
 yr = y * C;
 
 % Tạo vectơ z chỉ chứa các số nguyên từ vectơ y
 z = round(y);
-
+0   
 % Hiển thị kết quả
-disp('Vectơ y:')
+disp('V0ectơ y:')
 disp(y)
 
 disp('Vectơ yr:')
