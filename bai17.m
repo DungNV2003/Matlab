@@ -10,7 +10,7 @@ yr = y * C;
 
 % Tạo vectơ z chỉ chứa các số nguyên từ vectơ y
 z = round(y);
-0   
+  
 % Hiển thị kết quả
 disp('V0ectơ y:')
 disp(y)

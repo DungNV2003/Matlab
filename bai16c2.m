@@ -47,5 +47,5 @@ mesh(X, Y, Z);
 xlabel('x-axis');
 ylabel('y-axis');
 zlabel('F');
-title('Vẽ đồ thị bằng mesh');
+title('Vẽ đồ thị  mesh');
 

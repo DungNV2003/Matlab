@@ -1,5 +1,3 @@
-%nguyen van dung
-%bai17
 y=[1:0.5:5];
 y1=fliplr(y);%lat matran theo chieu ngang
 %flipud : lat matran theo chieu doc
