@@ -9,5 +9,5 @@ function [y] = bai27(N, a, b ,x0, y0, f)
         t(i) = t(i-1) + h;
         y(i) = y(i-1) + h * f(t(i-1), y(i-1));
     end
-  
-end                                                     
+  plot(t,y);
+end 
